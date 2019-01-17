@@ -73,6 +73,8 @@ body{ font-family: 'ProximaNovaLtLight';}
 {
     background-image: url(../images/slider_background.jpg);
     min-height:100vh;
+    background-size: cover!important;
+        position: relative;
 }
 p
 {
@@ -100,7 +102,7 @@ p
      font-family: 'ProximaNovaBold';
      color: #777;
     margin-top:50px;
-    text-align:center; 
+    text-align:center;
 }
 
 .button {
@@ -117,7 +119,14 @@ p
   margin: 4px 2px;
   cursor: pointer;
 }
-
+.border{
+  transition: 0.3s;
+  width: 100%;
+    margin-top:50px;
+    border:1px solid #f6f5f2;
+  padding:0px 20px;
+    border-radius:8px;
+}
 @media only screen and (max-width: 600px) {
 .main h1 {
     font-family: 'ProximaNovaBold';
