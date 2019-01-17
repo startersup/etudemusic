@@ -1,23 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
-<title>Etude Music School | A Place to Feel and Love Music </title>
-<link rel="icon" href="./assets/images/music-player.png" type="image" sizes="16x16">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans|Roboto:500" rel="stylesheet">
-<link rel="stylesheet" href="./assets/css/style.css">
-  <script src="./assets/js/sidenav.js"></script>  
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <meta charset="utf-8">
+    <title>Etude Music School | A Place to Feel and Love Music</title>
+    <link rel="icon" href="./assets/images/music-player.png" type="image" sizes="16x16">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans|Roboto:500" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/sidenav.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link href="https://fonts.googleapis.com/css?family=Merriweather+Sans|Charm|Open+Sans|Roboto:500" rel="stylesheet">
-  <link rel="stylesheet" href="./assets/css/nav.css">
     <link rel="stylesheet" href="./assets/css/fonts.css">
-      <link rel="stylesheet" href="./assets/css/forum.css">
-      <script src="./assets/js/sidenav.js"></script> 
+    <script src="./assets/js/sidenav.js"></script>
 </head>
-    
-   
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span> 
+            </button>
+            <a class="navbar-brand" href="#">
+                <img class="logo" src="assets/images/logo.png">
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav" id="side">
+                <li><a href="#">Home</a>
+                </li>
+                <li><a href="#">About us</a>
+                </li>
+                <li><a href="#">Academics</a>
+                </li>
+                <li><a href="#">General Info</a>
+                </li>
+                <li><a href="#">Join Us</a>
+                </li>
+                <li><a href="#">Careers</a>
+                </li>
+                <li><a href="#">Contact Us</a>
+                </li>
+                <div class="social">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-google-plus"></i>
+                </div>
+            </ul>
+        </div>
+    </nav>
+
+
+    <Script>
+        $(window).scroll(function() {
+            $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+        });
+    </Script>
+</body>
+
+</html>
