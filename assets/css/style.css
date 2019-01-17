@@ -108,7 +108,15 @@ p
     text-align: center;
      line-height:30px;
 }  
-.about h1
+.whatwe h3
+{
+    font-family: 'ProximaNovaSemibold';
+    color: #000000;
+     font-size:20px;
+    text-align: center;
+     line-height:30px;
+}
+.about h1,.whatwe h1
 {
      font-family: 'ProximaNovaBold';
      color: #777;
@@ -134,14 +142,20 @@ p
   transition: 0.3s;
   width: 100%;
     margin-top:50px;
-    border:1px solid #f6f5f2;
   padding:10px 20px;
     border-radius:8px;
 }
 .border:hover
 {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+     border:1px solid #f6f5f2;
 }
+.border img
+{
+    max-width:300px;
+    border-radius:10px 30px;
+}
+
 @media only screen and (max-width: 600px) {
     .main
     {
