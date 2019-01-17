@@ -82,6 +82,11 @@ body{ font-family: 'ProximaNovaLtLight';}
     background-size: cover!important;
         position: relative;
 }
+.main ul>li
+{
+    display: inline;
+    padding:5px 20px;
+}
 p
 {
      font-family: 'ProximaNovaLtLight';
@@ -130,8 +135,12 @@ p
   width: 100%;
     margin-top:50px;
     border:1px solid #f6f5f2;
-  padding:0px 20px;
+  padding:10px 20px;
     border-radius:8px;
+}
+.border:hover
+{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 @media only screen and (max-width: 600px) {
     .main
