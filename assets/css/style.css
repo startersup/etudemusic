@@ -69,6 +69,12 @@ body{ font-family: 'ProximaNovaLtLight';}
 {
     color:#ffffff;
 }
+.black
+{
+    background-color:#000000;
+    opacity:0.9;
+    min-height:100vh;
+}
 .main
 {
     background-image: url(../images/slider_background.jpg);
@@ -86,7 +92,7 @@ p
     font-family: 'ProximaNovaBold';
     color: #ffffff;
     text-align:center;
-        padding-top:150px;
+        padding-top:200px;
         line-height:30px;
 }
 .main  h2 {
@@ -132,6 +138,11 @@ p
     {
         min-height:20vh;
     }
+    .black
+{
+
+    min-height:20vh;
+}
 .main h1 {
     font-family: 'ProximaNovaBold';
     color: #ffffff;
