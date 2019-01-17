@@ -21,18 +21,21 @@ body{min-height:200vh; font-family: 'ProximaNovaLtLight';}
 .navbar-default{
   transition:500ms ease;
   background-color:#ffffff !important;
+       color: #000000!important;
     border:none !important;
     padding:10px;
     min-height:75px !important;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
-.navbar-default.scrolled{
-  background-color:#F4D03F !important;
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: transparent !important;
 }
+
 
  .navbar-nav
 {
       font-family: 'ProximaNovaSemibold';
-       color: #000000;
      font-size:18px;
 }
 .logo
@@ -59,4 +62,10 @@ body{min-height:200vh; font-family: 'ProximaNovaLtLight';}
 .fa
 {
     padding:0px 10px;
+        color: #777;
+}
+
+.fa.scrolled
+{
+    color:#ffffff;
 }
