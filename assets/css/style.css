@@ -1,4 +1,4 @@
-body{min-height:200vh; font-family: 'ProximaNovaLtLight';}
+body{ font-family: 'ProximaNovaLtLight';}
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
@@ -68,4 +68,70 @@ body{min-height:200vh; font-family: 'ProximaNovaLtLight';}
 .fa.scrolled
 {
     color:#ffffff;
+}
+.main
+{
+    background-image: url(../images/slider_background.jpg);
+    min-height:100vh;
+}
+p
+{
+     font-family: 'ProximaNovaLtLight';
+    font-size:16px;
+    line-height:25px;
+}
+.main h1 {
+    font-family: 'ProximaNovaBold';
+    color: #ffffff;
+    text-align:center;
+        padding-top:150px;
+        line-height:30px;
+}
+.main  h2 {
+    font-family: 'ProximaNovaSemibold';
+    color: #ffffff;
+     font-size:20px;
+    text-shadow: 1px 2px #000000;
+    text-align: center;
+     line-height:30px;
+}  
+.about h1
+{
+     font-family: 'ProximaNovaBold';
+     color: #777;
+    margin-top:50px;
+    text-align:center; 
+}
+
+.button {
+  background-color:yellow; /* Green */
+  border: none;
+  color: #000000;
+  padding: 10px;
+    border-radius:6px;
+  text-align: center;
+    font-family: 'ProximaNovaSemibold';
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+.main h1 {
+    font-family: 'ProximaNovaBold';
+    color: #ffffff;
+    font-size:28px;
+    text-align:center;
+        padding-top:150px;
+        line-height:30px;
+}
+.main  h2 {
+    font-family: 'ProximaNovaSemibold';
+    color: #ffffff;
+     font-size:18px;
+    text-align: center;
+     line-height:30px;
+} 
 }
