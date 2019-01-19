@@ -140,6 +140,12 @@ p
      line-height:30px;
 }
 
+
+.border
+{
+    border:1px solid #f1f1f1;
+    
+}
 .about h1,.academics h1
 {
      font-family: 'ProximaNovaBold';
@@ -173,11 +179,24 @@ p
   margin: 4px 2px;
   cursor: pointer;
 }
+.button2 {
+  background-color:green; /* Green */
+  border: none;
+  color: #ffffff;
+  padding: 10px;
+    border-radius:6px;
+  text-align: center;
+ font-family: 'ProximaNovaSemibold';
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
 .border{
   transition: 0.3s;
   width: 100%;
-    background-color:#ffffff;
-    margin-top:50px;
+   margin-top:50px;
   padding:10px 20px;
     border-radius:8px;
 }
@@ -191,7 +210,15 @@ p
     font-size:18px;
     line-height:30px;
 }
-
+.text p
+{
+    font-size:16px;
+    line-height:25px;
+}
+.rightborder
+{
+    border-right:1px solid #f1f1f1;
+}
 .card {
   transition: 0.3s;
   width: 100%;
@@ -199,7 +226,12 @@ p
     cursor: pointer;
     margin-top:10px;
 }
-
+.about ul>li
+{
+    font-family: 'ProximaNovaLtLight';
+    font-size:18px;
+    line-height:30px;
+}
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
@@ -214,10 +246,17 @@ footer
 {
     padding:10px;
     background-color:#333333;
-    min-height:200px;
+    min-height:150px;
     z-index:-1000;
     color:#CACACA;
     font-family: 'ProximaNovaRgRegular';
+}
+footer ul>li
+{
+    display:inline-block;
+    padding:10px 15px;
+    font-size:16px;
+    cursor: pointer;
 }
 footer p
 {
