@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Etude Music School | A Place to Feel and Love Music</title>
+    <link rel="icon" href="../assets/images/music-player.png" type="image" sizes="16x16">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans|Roboto:500" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <script src="../assets/js/sidenav.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../assets/css/fonts.css">
+    <script src="../assets/js/sidenav.js"></script>
+</head>
+
+<body style="background-color: #f2f2f2;">
+    <nav class="navbar navbar-default navit navbar-fixed-top">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span> 
+            </button>
+            <a class="navbar-brand" href="#">
+                <img class="logo" src="../assets/images/logo.png">
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav" id="side">
+                <li><a href="../index.html">Home</a>
+                </li>
+                <li><a href="../about/">About us</a>
+                </li>
+                <li><a href="../academic">Academics</a>
+                </li>
+                <li><a href="../info">General Info</a>
+                </li>
+                <li><a href="../join">Join Us</a>
+                </li>
+                <li><a href="../careers">Careers</a>
+                </li>
+                <li><a href="../contact">Contact Us</a>
+                </li>
+                <div class="social">
+                    <a href="https://www.facebook.com/etudeschoolofmusic" target="_blank"> <i class="fa fa-facebook"></i>
+                    </a>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-google-plus"></i>
+                </div>
+            </ul>
+        </div>
+    </nav>
+        <section class="about container">
+            <div class="border" id="borderimg1">
+                <h1>Careers</h1>
+                <h3>Teacher Registration Program</h3>
+                <p>Music teachers who are interested in instrumental or classroom sessions are welcome to register online through our website. Currently we have teaching positions open for violin, brass instruments and percussion.
+</p>
+               <hr>
+              <div class="row">
+	  <div class="col-md-2">&nbsp;
+	  </div>
+        <div class="col-md-8">
+          
+          
+          <p id="feedback"></p>
+           <form id="form1" name="form1" method="post" action="">
+           <center>	  <input type="submit" name="submit" value="Submit After Check" class="button2" onClick="return check();"/></center> 
+           <div class="col-md-12">	
+              <div class="form-group">
+                <label for="name" accesskey="U"><span class="required">*</span>Name</label>
+                <input name="name" type="text" id="name" class="controls inputed" value="" />
+              </div>
+            </div>
+            
+			 <div class="col-md-6">
+			  <div class="form-group">
+                <label for="age" accesskey="U"><span class="required">*</span> Age</label>
+                <input name="age" type="text" id="age" class="controls inputed" value="" onKeyPress="return isNumberKey(event)"/>
+              </div></div>
+			   <div class="col-md-6">
+			  <label for="age" accesskey="U"><span class="required">*</span> Gender</label>
+			  
+			  <div class="form-group">
+			   
+                <label class="radio-inline">
+      <input type="radio" name="gender" value="Male">Male
+    </label>
+    <label class="radio-inline">
+      <input type="radio" name="gender" value="Female">Female
+    </label></div>
+              </div>
+              <div class="col-md-12">	
+              <div class="form-group">
+                <label for="subject" accesskey="E"><span class="required">*</span> Subject in which you are qualified to teach (Grade / Diploma)</label>
+              <input name="subject" type="text" id="subject" class="controls inputed" />
+              </div></div>
+              <div class="col-md-12">	
+			  <div class="form-group">
+                <label for="instrument" accesskey="E"><span class="required">*</span> Instrument </label>
+                <input name="instrument" type="text" id="instrument"  class="controls inputed" />
+              </div></div>
+              <div class="col-md-12">	
+			  <div class="form-group">
+                <label for="additional" accesskey="E"><span class="required">*</span> Additional  Training / Seminar attended or conducted </label>
+                <input name="additional" type="text" id="additional"  class="controls inputed"/>
+              </div></div>
+              <div class="col-md-6">	
+			  <div class="form-group">
+                <label for="current" accesskey="E"><span class="required">*</span> Current teaching assignments (if any)  </label>
+                <input name="current" type="text" id="current"  class="controls inputed"/>
+              </div></div>
+              <div class="col-md-6">	
+			   <div class="form-group">
+                <label for="day_time" accesskey="E"><span class="required">*</span> Preferred day / time of class</label>
+                <input name="day_time" type="text" id="day_time"  class="controls inputed" />
+              </div></div>
+              <div class="col-md-6">	
+			   <div class="form-group">
+                <label for="phone" accesskey="E"><span class="required">*</span> Contact No</label>
+                <input name="phone" type="text" id="phone"  class="controls inputed" onKeyPress="return isNumberKey(event)"/>
+              </div></div>
+              <div class="col-md-6">	
+			   <div class="form-group">
+                <label for="email" accesskey="E"><span class="required">*</span> Email</label>
+                <input name="email" type="text" id="email"  class="controls inputed" />
+              </div></div>
+			  
+			   <div class="col-md-12">	
+			
+         <div class="form-group">
+                <label for="address" accesskey="E"><span class="required">*</span> Address </label>
+                 <textarea name="address" id="address"  class="controls inputed"></textarea>
+              </div></div>
+              <div class="col-md-12">	
+			   <div class="form-group">
+                <label for="query" accesskey="E"><span class="required">*</span> Query </label>
+                 <textarea name="query" rows="3"  class="controls inputed" id="query" ></textarea>
+              </div></div>
+			 <div class="col-md-6">	
+              <div class="form-group">
+			   
+                <label for="monday" accesskey="E">Monday : Timing (ex: 10AM - 11AM)</label>
+                <input name="monday" type="text" id="monday"  class="controls inputed" />
+              </div></div>
+            <div class="col-md-6">	
+           <div class="form-group">
+			   
+                <label for="tuesday" accesskey="E">Tuesday </label>
+                <input name="tuesday" type="text" id="tuesday" class="controls inputed" />
+              </div></div>
+               <div class="col-md-6">	
+			  <div class="form-group">
+			   
+                <label for="wednesday" accesskey="E">Wednesday </label>
+                <input name="wednesday" type="text" id="wednesday"  class="controls inputed" />
+              </div></div>
+               <div class="col-md-6">	
+			  <div class="form-group">
+			   
+                <label for="thursday" accesskey="E">Thursday </label>
+                <input name="thursday" type="text" id="thursday"  class="controls inputed" />
+              </div></div>
+               <div class="col-md-6">	
+			  <div class="form-group">
+			   
+                <label for="friday" accesskey="E">Friday</label>
+                <input name="friday" type="text" id="friday"  class="controls inputed"/>
+              </div></div>
+               <div class="col-md-6">	
+			  <div class="form-group">
+			   
+                <label for="saturday" accesskey="E">Saturday</label>
+                <input name="saturday" type="text" id="saturday"  class="controls inputed" />
+              </div></div>
+               </form>  
+        </div>
+                </div>
+            </div>
+           
+        </section>  
+        <footer>
+            <br>
+        <div class="container">
+         <center> <ul>
+              <li>Home</li>
+              <li>About</li>
+              <li>Services</li>
+              <li>Join Class</li>
+              <li>Careers</li>
+              <li>FAQ's</li>
+            </ul></center>
+          <center><p style="text-align:center;">Copyrights &copy; 2019 Etude Music. All Rights Reserved </p></center>
+        </div>
+    </footer>
+    <Script>
+        $(window).scroll(function() {
+            $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+        });
+    </Script>
+</body>
+
+</html>

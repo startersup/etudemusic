@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Etude Music School | A Place to Feel and Love Music</title>
+    <link rel="icon" href="../assets/images/music-player.png" type="image" sizes="16x16">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans|Roboto:500" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <script src="../assets/js/sidenav.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../assets/css/fonts.css">
+    <script src="../assets/js/sidenav.js"></script>
+</head>
+
+<body style="background-color: #f2f2f2;">
+    <nav class="navbar navbar-default navit navbar-fixed-top">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span> 
+            </button>
+            <a class="navbar-brand" href="#">
+                <img class="logo" src="../assets/images/logo.png">
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav" id="side">
+                <li><a href="../index.html">Home</a>
+                </li>
+                <li><a href="../about/">About us</a>
+                </li>
+                <li><a href="../academic">Academics</a>
+                </li>
+                <li><a href="../info">General Info</a>
+                </li>
+                <li><a href="../join">Join Us</a>
+                </li>
+                <li><a href="../careers">Careers</a>
+                </li>
+                <li><a href="../contact">Contact Us</a>
+                </li>
+                <div class="social">
+                    <a href="https://www.facebook.com/etudeschoolofmusic" target="_blank"> <i class="fa fa-facebook"></i>
+                    </a>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-google-plus"></i>
+                </div>
+            </ul>
+        </div>
+    </nav>
+        <section class="about container">
+            <div class="border" id="borderimg1">
+                <h1>Registration</h1>
+                <p>New students may enrol at any time during the year for most programs, and tuition fee may be allowed on a pro-rated basis. A completed and signed registration form along with registration fee must be received prior to student attending any lessons or classes.
+
+</p>
+               <hr>
+                 <div class="row">
+	  <div class="col-md-2">&nbsp;
+	  </div>
+        <div class="col-md-8">
+           <form id="form1" name="form1" method="post" action="" runat="server">
+          
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="firstname" accesskey="U"><span class="required">*</span> First Name</label><br>
+                <input name="firstname" class="controls inputed" type="text" id="firstname" required value="" placeholder="eg: Joseph"/>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="lastname" accesskey="E"><span class="required">*</span> Last Name</label><br>
+                <input name="lastname" class="controls inputed" type="text" id="lastname"  required placeholder="eg: fernandez"/>
+              </div>
+            </div>
+			 <div class="col-md-6">
+              <div class="form-group">
+                <label for="age" accesskey="U"><span class="required">*</span> Age</label><br>
+                <input name="age" class="controls inputed" type="text" id="age" required  value="" onKeyPress="return isNumberKey(event)" placeholder="eg: 22 years"/>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="dob" accesskey="E"><span class="required">*</span> Date of Birth</label>
+                <input name="dob" class="controls inputed" required type="date" id="dob"  />
+              </div>
+            </div>
+          
+		 <div class="col-md-6">
+              <div class="form-group">
+                <label for="regular" accesskey="E"><span class="required">*</span> Preparatory / Regular</label><br>
+                <input name="regular" class="controls inputed" required type="text" id="regular"  />
+              </div></div>
+               <div class="col-md-6">
+			    <div class="form-group">
+                <label for="instrument" accesskey="E"><span class="required">*</span> Name of Instrument / Program </label><br>
+                <input name="instrument" class="controls inputed" required type="text" id="instrument" placeholder="eg: guitar" />
+              </div></div>
+              <div class="col-md-6">
+			  <div class="form-group">
+                <label for="parent" accesskey="E"><span class="required">*</span> Name of Parent / Guardian </label><br>
+                <input name="parent" class="controls inputed"  placeholder="eg: Joseph" required type="text" id="parent" />
+              </div></div>
+			  
+			   
+           <div class="col-md-6">
+               <div class="form-group">
+                <label for="par_mob" accesskey="E"><span class="required">*</span> Mobile No (Parent)</label>
+                <input name="par_mob" class="controls inputed" placeholder="eg: 987654321" required type="text" id="par_phone" onKeyPress="return isNumberKey(event)"/>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="stu_mob" accesskey="U"><span class="required">*</span> Mobile No (Student)</label>
+                <input name="stu_mob" class="controls inputed" placeholder="eg: 987654321" required type="text" id="stu_phone" value="" onKeyPress="return isNumberKey(event)"/>
+              </div>
+            </div>
+			
+			<div class="col-md-6">
+              <div class="form-group">
+                <label for="stu_email" accesskey="U"><span class="required">*</span> Email (Student)</label><br>
+                <input name="stu_email" class="controls inputed" required placeholder="eg: xyz@gmail.com" type="text" id="stu_email" value="" />
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="form-group">
+                <label for="par_email" accesskey="E"><span class="required">*</span> Email (Parent)</label><br>
+                <input name="par_email" class="controls required inputed" placeholder="eg: xyz@gmail.com" type="text" id="par_email" />
+              </div>
+            </div>
+               		<div class="col-md-12">	
+         <div class="form-group">
+                <label for="address" accesskey="E"><span class="required">*</span> Address </label><br>
+                 <textarea name="address" class="controls required inputed" id="address" ></textarea></div>
+              </div><div class="col-md-12">	
+			   <div class="form-group">
+                <label for="query" accesskey="E"><span class="required"></span> Query </label><br>
+                 <textarea name="query" rows="5"  class="controls inputed" id="query" ></textarea>
+              </div>
+		 
+		 <Center><input type="submit" name="submit" value="Register Now" class="button2" onClick="return check();"></Center>
+               </div>
+        </form>
+        </div>
+                </div></div>
+        </section>  
+        <footer>
+            <br>
+        <div class="container">
+         <center> <ul>
+              <li>Home</li>
+              <li>About</li>
+              <li>Services</li>
+              <li>Join Class</li>
+              <li>Careers</li>
+              <li>FAQ's</li>
+            </ul></center>
+          <center><p style="text-align:center;">Copyrights &copy; 2019 Etude Music. All Rights Reserved </p></center>
+        </div>
+    </footer>
+    <Script>
+        $(window).scroll(function() {
+            $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+        });
+    </Script>
+</body>
+
+</html>
