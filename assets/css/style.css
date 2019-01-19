@@ -398,6 +398,12 @@ font-family: 'ProximaNovaRgRegular';
       box-shadow:none;
     border:none;
     padding:0px;
-}   
+}  
+    #borderimg1
+    {
+        margin-top:50px;
+        
+        border:none;
+    }
     
 }
