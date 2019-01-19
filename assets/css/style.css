@@ -108,7 +108,6 @@ p
     font-size:18px;
     line-height:30px;
     color:#14132e;
-    text-align: justify;
     font-weight:400;
 }
 .main h1 {
@@ -131,7 +130,7 @@ p
 {
     background-color:#5C719A;
 }
-.academics h3,.whatwe h3
+.academics h3,.whatwe h3,.about h3
 {
     font-family: 'ProximaNovaSemibold';
     color: #000000;
@@ -144,6 +143,7 @@ p
 .border
 {
     border:1px solid #f1f1f1;
+     background-color:#ffffff;
     
 }
 .about h1,.academics h1
@@ -232,6 +232,26 @@ p
     font-size:18px;
     line-height:30px;
 }
+.academics ul>li
+{
+
+    font-family: 'ProximaNovaLtLight';
+    font-size:18px;
+    padding:10px 30px;
+    line-height:30px;
+    border:1px solid #f1f1f1;
+    display: inline-block;
+    margin:10px 5px;
+}
+.academics ul>li:hover
+{
+    border:1px solid green;
+}
+
+.academics span
+{
+    font-family: 'ProximaNovaSemibold';
+}
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
@@ -273,7 +293,25 @@ footer h4
     border-bottom: 1px solid #9352f9;
     border
 }
-
+ .info h2
+    {
+       font-family: 'ProximaNovaSemibold';
+       color: #14132e;
+     font-size:22px;
+        text-align: center;
+     line-height:30px;  
+    }
+.pad
+{
+    padding:10px 30px;
+}
+#borderimg1 { 
+  border: 10px solid transparent;
+  padding: 15px;
+  -webkit-border-image: url(../images/border.png) 30 stretch; /* Safari 3.1-5 */
+  -o-border-image: url(../images/border.png) 40 stretch; /* Opera 11-12.1 */
+  border-image: url(../images/border.png) 30 stretch;
+}
 
 @media only screen and (max-width: 600px) {
     .main
@@ -293,13 +331,15 @@ footer h4
         padding-top:150px;
         line-height:30px;
 }
-.main  h2 {
+.main  h2, {
     font-family: 'ProximaNovaSemibold';
     color: #ffffff;
      font-size:18px;
     text-align: center;
      line-height:30px;
 } 
+   
+   
     .main ul>li
 {
     display: inline;
@@ -310,12 +350,11 @@ footer h4
         padding:20px 0px;
     }
     p
-{
+   {
      font-family: 'ProximaNovaLtLight';
     font-size:16px;
     line-height:30px;
     color:#14132e;
-    text-align: justify;
     font-weight:400;
 }
  .textborder
@@ -324,4 +363,8 @@ footer h4
     border:none;
     padding:0px;
 }   
+    .border
+    {
+        padding:0px;
+    }
 }
