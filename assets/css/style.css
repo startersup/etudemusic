@@ -367,10 +367,10 @@ font-family: 'ProximaNovaRgRegular';
         padding-top:150px;
         line-height:30px;
 }
-.main  h2, {
+.main  h2 {
     font-family: 'ProximaNovaSemibold';
     color: #ffffff;
-     font-size:18px;
+     font-size:20px;
     text-align: center;
      line-height:30px;
 } 
