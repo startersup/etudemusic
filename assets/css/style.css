@@ -291,7 +291,7 @@ footer h4
     padding:5px 0px;
     width:50%;
     color:#E7CB3D;
-    border
+    
 }
 .border label
 {
@@ -402,5 +402,9 @@ font-family: 'ProximaNovaRgRegular';
     .border
     {
         padding:0px;
+    }
+    .container
+    {
+        margin:0px;
     }
 }
