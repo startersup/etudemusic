@@ -87,28 +87,51 @@ body{ font-family: 'ProximaNovaLtLight';}
     display: inline;
     padding:5px 20px;
 }
+section
+{
+    padding:70px 0px;
+}
+.textborder
+{
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border:1px solid #EFEDF4;
+    border-radius:10px 50px;
+    padding:20px;
+}
+ .imgs
+{
+    margin-top:-50px;
+}
 p
 {
      font-family: 'ProximaNovaLtLight';
-    font-size:16px;
-    line-height:25px;
+    font-size:18px;
+    line-height:30px;
+    color:#14132e;
+    text-align: justify;
+    font-weight:400;
 }
 .main h1 {
-    font-family: 'ProximaNovaBold';
+    font-family: ProximaNovaBold;
     color: #ffffff;
+    font-size:60px;
     text-align:center;
         padding-top:200px;
-        line-height:30px;
+        line-height:60px;
 }
 .main  h2 {
     font-family: 'ProximaNovaSemibold';
     color: #ffffff;
-     font-size:20px;
+     font-size:30px;
     text-shadow: 1px 2px #000000;
     text-align: center;
      line-height:30px;
 }  
-.whatwe h3
+.whatwe
+{
+    background-color:#5C719A;
+}
+.academics h3,.whatwe h3
 {
     font-family: 'ProximaNovaSemibold';
     color: #000000;
@@ -116,14 +139,26 @@ p
     text-align: center;
      line-height:30px;
 }
-.about h1,.whatwe h1
+
+.about h1,.academics h1
 {
      font-family: 'ProximaNovaBold';
-     color: #777;
-    margin-top:50px;
+     color: #342d4f;
     text-align:center;
 }
-
+.whatwe h1
+{
+     font-family: 'ProximaNovaBold';
+     color: #ffffff;
+    text-align:center;  
+}
+.bord
+{
+    border:2px solid #5c719a;
+}
+.bord:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
 .button {
   background-color:yellow; /* Green */
   border: none;
@@ -131,7 +166,7 @@ p
   padding: 10px;
     border-radius:6px;
   text-align: center;
-    font-family: 'ProximaNovaSemibold';
+ font-family: 'ProximaNovaSemibold';
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
@@ -141,20 +176,63 @@ p
 .border{
   transition: 0.3s;
   width: 100%;
+    background-color:#ffffff;
     margin-top:50px;
   padding:10px 20px;
     border-radius:8px;
 }
-.border:hover
-{
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-     border:1px solid #f6f5f2;
-}
+
 .border img
 {
-    max-width:300px;
-    border-radius:10px 30px;
+    max-width:320px;
 }
+.border p
+{
+    font-size:18px;
+    line-height:30px;
+}
+
+.card {
+  transition: 0.3s;
+  width: 100%;
+    padding:10px 20px;
+    cursor: pointer;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.white
+{
+    background-color:#ffffff;
+    line-height:20px;
+    font-size:16px;
+}
+footer
+{
+    padding:10px;
+    background-color:#333333;
+    min-height:200px;
+    z-index:-1000;
+    color:#CACACA;
+    font-family: 'ProximaNovaRgRegular';
+}
+footer p
+{
+    font-family: 'ProximaNovaRgRegular';
+    color:#CACACA;
+    
+}
+
+footer h4
+{
+    font-family: 'ProximaNovaSemibold';
+    padding:5px 0px;
+    width:50%;
+    border-bottom: 1px solid #9352f9;
+    border
+}
+
 
 @media only screen and (max-width: 600px) {
     .main
@@ -181,4 +259,28 @@ p
     text-align: center;
      line-height:30px;
 } 
+    .main ul>li
+{
+    display: inline;
+    padding:5px 10px;
+}
+    section
+    {
+        padding:20px 0px;
+    }
+    p
+{
+     font-family: 'ProximaNovaLtLight';
+    font-size:16px;
+    line-height:30px;
+    color:#14132e;
+    text-align: justify;
+    font-weight:400;
+}
+ .textborder
+{
+      box-shadow:none;
+    border:none;
+    padding:0px;
+}   
 }
