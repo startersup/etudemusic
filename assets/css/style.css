@@ -306,6 +306,14 @@ footer h4
         text-align: center;
      line-height:30px;  
     }
+.touch
+{
+font-family: 'ProximaNovaRgRegular';
+    font-size:18px;
+}
+#table td {
+  padding:15px 0px;
+}
 .pad
 {
     padding:10px 30px;
@@ -335,7 +343,7 @@ footer h4
         margin-left: 12px;
         padding: 0 11px 0 13px;
         text-overflow: ellipsis;
-        min-width: 300px;
+        min-width: 100px;
      width:100%;
       }
  #inputed:focus {
