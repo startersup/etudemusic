@@ -20,7 +20,7 @@ body{ font-family: 'ProximaNovaLtLight';}
 }
 .navbar-default{
   transition:500ms ease;
-  background-color:#ffffff !important;
+  background-color:#ffed4c !important;
        color: #000000!important;
     border:none !important;
     padding:10px;
@@ -52,6 +52,10 @@ body{ font-family: 'ProximaNovaLtLight';}
     color:#000000 !important;
     border-bottom:2px solid red;
 }
+ .navbar-nav>li a
+{
+    color:#000000 !important;
+}
 .social
 {
    display:inline-block;
@@ -62,7 +66,11 @@ body{ font-family: 'ProximaNovaLtLight';}
 .fa
 {
     padding:0px 10px;
-        color: #777;
+        color: #000000;
+}
+.fa:hover{
+    color:chartreuse;
+    text-decoration: none !important;
 }
 
 .fa.scrolled
@@ -199,6 +207,7 @@ p
    margin-top:50px;
   padding:10px 20px;
     border-radius:8px;
+    border:1ps solid #f0f0f0;
 }
 
 .border img
