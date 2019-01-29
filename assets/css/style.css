@@ -69,7 +69,7 @@ body{ font-family: 'ProximaNovaLtLight';}
         color: #000000;
 }
 .fa:hover{
-    color:chartreuse;
+    color:red;
     text-decoration: none !important;
 }
 
@@ -79,8 +79,8 @@ body{ font-family: 'ProximaNovaLtLight';}
 }
 .black
 {
-    background-color:#000000;
-    opacity:0.9;
+    background-color:#000;
+    opacity:0.8;
     min-height:100vh;
 }
 .main
@@ -121,7 +121,7 @@ p
 .main h1 {
     font-family: ProximaNovaBold;
     color: #ffffff;
-    font-size:60px;
+    font-size:56px;
     text-align:center;
         padding-top:200px;
         line-height:60px;
