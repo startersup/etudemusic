@@ -67,18 +67,18 @@
 	  <div class="col-md-2">&nbsp;
 	  </div>
         <div class="col-md-8">
-           <form id="form1" name="form1" method="post" action="" runat="server">
+           <form name="form1" method="post" action="../save.php">
           
             <div class="col-md-6">
               <div class="form-group">
                 <label for="firstname" accesskey="U"><span class="required">*</span> First Name</label><br>
-                <input name="firstname" class="controls inputed" type="text" id="firstname" required value="" placeholder="eg: Joseph"/>
+                <input name="fname" class="controls inputed" type="text" id="firstname" required value="" placeholder="eg: Joseph"/>
               </div>
             </div>
             <div class="col-md-6">
               <div class="form-group">
                 <label for="lastname" accesskey="E"><span class="required">*</span> Last Name</label><br>
-                <input name="lastname" class="controls inputed" type="text" id="lastname"  required placeholder="eg: fernandez"/>
+                <input name="lname" class="controls inputed" type="text" id="lastname"  required placeholder="eg: fernandez"/>
               </div>
             </div>
 			 <div class="col-md-6">
@@ -114,26 +114,26 @@
            <div class="col-md-6">
                <div class="form-group">
                 <label for="par_mob" accesskey="E"><span class="required">*</span> Mobile No (Parent)</label>
-                <input name="par_mob" class="controls inputed" placeholder="eg: 987654321" required type="text" id="par_phone" onKeyPress="return isNumberKey(event)"/>
+                <input name="parmob" class="controls inputed" placeholder="eg: 987654321" required type="text" id="par_phone" onKeyPress="return isNumberKey(event)"/>
               </div>
             </div>
             <div class="col-md-6">
               <div class="form-group">
                 <label for="stu_mob" accesskey="U"><span class="required">*</span> Mobile No (Student)</label>
-                <input name="stu_mob" class="controls inputed" placeholder="eg: 987654321" required type="text" id="stu_phone" value="" onKeyPress="return isNumberKey(event)"/>
+                <input name="stumob" class="controls inputed" placeholder="eg: 987654321" required type="text" id="stu_phone" value="" onKeyPress="return isNumberKey(event)"/>
               </div>
             </div>
 			
 			<div class="col-md-6">
               <div class="form-group">
                 <label for="stu_email" accesskey="U"><span class="required">*</span> Email (Student)</label><br>
-                <input name="stu_email" class="controls inputed" required placeholder="eg: xyz@gmail.com" type="text" id="stu_email" value="" />
+                <input name="stuemail" class="controls inputed" required placeholder="eg: xyz@gmail.com" type="text" id="stu_email" value="" />
               </div>
             </div>
             <div class="col-md-12">
               <div class="form-group">
                 <label for="par_email" accesskey="E"><span class="required">*</span> Email (Parent)</label><br>
-                <input name="par_email" class="controls required inputed" placeholder="eg: xyz@gmail.com" type="text" id="par_email" />
+                <input name="paremail" class="controls required inputed" placeholder="eg: xyz@gmail.com" type="text" id="par_email" />
               </div>
             </div>
                		<div class="col-md-12">	
@@ -146,7 +146,7 @@
                  <textarea name="query" rows="5"  class="controls inputed" id="query" ></textarea>
               </div>
 		 
-		 <Center><input type="submit" name="submit" value="Register Now" class="button2" onClick="return check();"></Center>
+		 <Center><input type="submit" name="submit" value="Register Now" class="button2"></Center>
                </div>
         </form>
         </div>
